@@ -19,6 +19,11 @@ public class AppConfig {
         return new ClassC();
     }
 
+    @Bean(name="classD")
+    public ClassD classD(){
+        return new ClassD();
+    }
+
 
 
 }
