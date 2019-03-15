@@ -16,8 +16,8 @@ public class ClassD extends ClassA {
         return absValue;
     }
 
-    public boolean isConcreteString(){  // DIP Violation
-        if (concreteString.equals("This")){
+    public boolean isConcreteString(){          // DIP Violation
+        if (concreteString.equals("This")){     
             return true;
         }
         else {
